@@ -1,0 +1,60 @@
+
+/*Navigation css*/
+
+ul {
+    list-style-type: none;
+
+  }
+  a {
+    color: #1A1C49; 
+    text-decoration: none;
+    font-family: 'Museo Sans';
+    font-weight: 300;
+  }
+  a:hover {
+    color: #2E477A; 
+    font-weight: 400;
+  }
+
+  .logo {
+    
+    margin-left: 0;
+    display: flex;
+}
+.logo img{
+    width: 80px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px;
+    margin: 0 auto;
+    max-width: 900px;
+    width: 100%;
+    
+}
+.menu{
+    display: flex;
+    align-items: center;
+    /* justify-content: flex-end; */
+    margin: 0;
+    padding: 0;
+  
+
+}
+.navbar li{
+    display: inline;
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+.navbar li a.nav-link{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.navbar li a.log {
+    font-weight: 800;
+}
