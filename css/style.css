@@ -1130,6 +1130,10 @@ input:-internal-autofill-selected {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
 @media only screen and (max-width: 600px){
+    div.disabled {
+        overflow-x: hidden; 
+        overflow-y: scroll; 
+    }
     .menu{
         display: none;
     }
@@ -1199,6 +1203,9 @@ input:-internal-autofill-selected {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 768px) {
+
+    
+   
     .pricing-left{
      
         margin-right:0;
@@ -1224,12 +1231,18 @@ input:-internal-autofill-selected {
 
     .icon{
         display: block;
-        margin-right:15px;
+        
     }
+
+
  
 } 
 
 @media only screen and (max-width: 992px) {
+    div.disabled {
+        overflow-x: hidden; 
+        overflow-y: scroll; 
+    }
     .pricing-left{
      
         margin-right:-16px;
@@ -1246,6 +1259,10 @@ input:-internal-autofill-selected {
 
 
 @media only screen and (min-width: 992px) {
+    div.disabled {
+        overflow-x: hidden; 
+        overflow-y: scroll; 
+    }
     .pricing-left{
      
         margin-right:-80px;
@@ -1262,6 +1279,11 @@ input:-internal-autofill-selected {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+
+    div.disabled {
+        overflow-x: hidden; 
+        overflow-y: scroll; 
+    }
 
      .pricing-left{
      

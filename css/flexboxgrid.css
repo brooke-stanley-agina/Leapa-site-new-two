@@ -12,6 +12,8 @@
   display: -ms-flexbox;
   display: -webkit-box;
   display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   -ms-flex: 0 1 auto;
   -webkit-box-flex: 0;
   flex: 0 1 auto;
@@ -194,10 +196,11 @@
 }
 
 .center-xs {
-  -ms-flex-pack: center;
+  /* -ms-flex-pack: center; */
   -webkit-box-pack: center;
   justify-content: center;
   text-align: center;
+  display: flex;
 }
 
 .end-xs {
@@ -747,7 +750,7 @@
   .col-lg-6 {
     -ms-flex-preferred-size: 50%;
     flex-basis: 50%;
-    max-width: 50%;
+    max-width: 60%;
   }
 
   .col-lg-7 {
@@ -855,6 +858,7 @@
     -ms-flex-align: start;
     -webkit-box-align: start;
     align-items: flex-start;
+    display: flex;
   }
 
   .middle-lg {
