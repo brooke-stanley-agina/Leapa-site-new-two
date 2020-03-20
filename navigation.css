@@ -149,10 +149,23 @@ span.sid{
     font-size: 55px;
 }
 
+.left-hero-content h2.pay{
+    font-size: 30px;
+}
+
 .left-hero-content p{
     font-weight: 800;
     font-size: 20px;
     color: #1A1C49;
+}
+
+.left-hero-content p.leap{
+    color: #9e9e9e;
+    font-size: 15px;
+}
+
+#feature-title{
+    margin-left: 120px;
 }
 
 .pricing-right{
@@ -199,3 +212,4 @@ p.access{
 .start-md{
     width: 100%;
 }
+
