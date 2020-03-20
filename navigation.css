@@ -112,3 +112,90 @@ a.button{
     max-width: 50%;
     margin-left: 0px;
 }
+
+/*Pricing Cards*/
+
+.row-cards{
+    display: flex;
+}
+
+/* #pricing-lg{
+    display: flex;
+} */
+
+.pricing-left{
+    justify-content: center;
+}
+
+.pricing-left p{
+   padding-left: 50px;
+   padding-right: 50px;
+   justify-content: center;
+}
+
+span.sig{
+    font-size: 20px;
+    position: absolute;
+    padding-bottom: 60px;
+    font-weight: 500;
+}
+
+span.sid{
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.left-hero-content h2{
+    font-size: 55px;
+}
+
+.left-hero-content p{
+    font-weight: 800;
+    font-size: 20px;
+    color: #1A1C49;
+}
+
+.pricing-right{
+    margin-right: 100px;
+    height: 350px;
+    margin-top: 81px;
+}
+
+.row-icons{
+    display: flex;
+    flex-direction: column;
+}
+p.access{
+    color: white;
+    font-weight: 300;
+}
+
+.pricing-right a{
+    padding: 40px;
+    max-width: 50%;
+}
+
+.container p.high{
+    font-weight: 800;
+    color: white;
+}
+
+.pricing-page-item h3{
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+}
+
+.pricing-page-item p{
+    color: white;
+    padding: 15px;
+    justify-content: center;
+}
+
+.container .row-icons .col-xs-11, 
+.col-sm-12, 
+.col-md-12, 
+.col-lg-12,
+.start-md{
+    width: 100%;
+}
